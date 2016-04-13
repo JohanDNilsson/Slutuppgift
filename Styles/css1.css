@@ -1,0 +1,74 @@
+
+header{
+	background-color: black; 
+	color: white;
+}
+.logga {
+	width: 200px;
+}
+	#meny{
+		padding: 0;
+		margin: 4px;
+		margin-left: 320px;
+		list-style: none;
+	}
+	#meny li{
+		display: inline;
+		list-style-type: none;
+		padding: 0 70px 0 0;
+		font-family: copperplate;
+		font-size: large;
+	}
+	.Visaklarna{
+		width: 100px;
+		border: 2px solid white;  
+		border-radius: 15px;
+		float: right;
+		margin-top: 10px;
+	}
+	#matkassar {
+		width: 1200px;
+		padding-left: 5px;
+		padding-right: 70px;
+	}
+	.minsida{
+		margin-left: 700px;
+	}
+	aside div{
+		background-color: white;
+	}
+	.M1{
+		width: 150px;
+		margin-left: 100px;
+	}
+	.M2{
+		width: 150px; 
+		margin-left: 100px;
+		margin-top: 70px;
+	}
+	.M3{
+		width: 150px;
+		margin-left: 100px;
+		margin-top: 60px;
+	}
+	.text{
+		margin-left: 40px; 
+	}
+	.t1, .t2, .t3{
+		text-align: center;
+		margin-top: 40px;
+	}
+	section div{
+		font-family: copperplate;
+	}
+	.ul1{
+		float: left;
+		padding: 10px;
+		margin: 30px;
+		list-style-type: none;
+	}
+	footer{
+		background-color: black;
+		color: white;
+		margin-top: 40px;
+	}
