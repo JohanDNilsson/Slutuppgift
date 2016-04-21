@@ -7,19 +7,6 @@ header, a {
 .logga {
 	width: 250px;
 	float: center;
-}
-	#meny{
-		padding: 0;
-		margin: 4px;
-		margin-left: 320px;
-		list-style: none;
-	}
-	#meny li{
-		display: inline;
-		list-style-type: none;
-		padding: 0 70px 0 0;
-		font-family: copperplate;
-		font-size: large;
 	}
 	.Visaklarna{
 		width: 100px;
@@ -43,19 +30,19 @@ header, a {
 	}
 	.M1{
 		width: 150px;
-		margin-left: 70px;
+		margin-left: 20px;
 		margin-bottom: 10px;
 	}
 	.M2{
 		width: 150px; 
-		margin-left: 30px;
+		margin-left: 10px;
 		margin-top: 105px;
 
 			}
 	.M3{
 		width: 150px;
-		margin-left: 80px;
-		margin-top: 60px;
+		margin-left: 10px;
+		margin-top: 75px;
 	}
 	.n1{
 		font-family: copperplate;
@@ -113,7 +100,7 @@ header, a {
 	}
 	.DD {
 		float: right;
-		padding: 10px;
+		padding: 5px;
 	}
 	#menu{
 		margin-right: 220px;
@@ -123,7 +110,9 @@ header, a {
 	#menu1, #menu2, #menu3, #menu4, #menu5{
 		background-color: black;
 		color: white;
-		margin-top: 125px;
+		margin-top: 140px;
+	}
+	#menu123{
 	}
 	#Visaklarna2 {
 		margin: 3px;
@@ -309,3 +298,4 @@ header, a {
 	h4{
 		text-shadow: 2px 2px black;
 	}
+
