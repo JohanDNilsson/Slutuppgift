@@ -1,10 +1,12 @@
 
-header{
+
+header, a {
 	background-color: black; 
 	color: white;
 }
 .logga {
-	width: 200px;
+	width: 250px;
+	float: center;
 }
 	#meny{
 		padding: 0;
@@ -24,15 +26,17 @@ header{
 		border: 2px solid white;  
 		border-radius: 15px;
 		float: right;
-		margin-top: 10px;
+		margin-top: 20px;
 	}
-	#matkassar {
-		width: 1200px;
-		padding-left: 5px;
-		padding-right: 70px;
-	}
-	.minsida{
-		margin-left: 700px;
+	.klarnavisa{
+		margin: 5px;
+		margin-top: 20px;
+		float: right;
+		margin-right: 10px;
+		border: 2px solid white;
+		border-radius: 15px;
+		padding: 3px;
+		font-family: copperplate;
 	}
 	aside div{
 		background-color: white;
@@ -40,26 +44,37 @@ header{
 	.M1{
 		width: 150px;
 		margin-left: 100px;
+		margin-bottom: 10px;
 	}
 	.M2{
 		width: 150px; 
 		margin-left: 100px;
 		margin-top: 70px;
-	}
+
+			}
 	.M3{
 		width: 150px;
-		margin-left: 100px;
+		margin-left: 80px;
 		margin-top: 60px;
 	}
 	.text{
-		margin-left: 40px; 
+		margin-left: 10px; 
 	}
-	.t1, .t2, .t3{
+	.t1, .t2, .t3, .t4, .t5, .t6, .t7{
 		text-align: center;
 		margin-top: 40px;
-	}
-	section div{
 		font-family: copperplate;
+		margin-bottom: 20px;
+	}
+	.t1, .t2, .t3,{
+		text-align: center;
+		margin-top: 40px;
+		font-family: copperplate;
+		margin-bottom: 20px;
+	}
+	div	 div{
+		font-family: copperplate;
+		font-size: medium;
 	}
 	.ul1{
 		float: left;
@@ -70,5 +85,223 @@ header{
 	footer{
 		background-color: black;
 		color: white;
-		margin-top: 40px;
+		margin-top: 10px;
+	}
+	.tryggehandel{
+		width: 80px;
+		margin-left: 50px;
+		float: right;
+		margin-top: 100px;
+	}
+	a{
+		color: #FFFFFF;
+	}
+	.whitelinks{
+		color: #fff;
+		font-family: copperplate;
+	} 
+	article.container{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	aside {
+		margin-top: 20px;
+	}
+	.DD {
+		float: right;
+		padding: 10px;
+	}
+	#menu{
+		margin-right: 220px;
+		background-color: black;
+		font-family: copperplate;
+	}
+	#menu1, #menu2, #menu3, #menu4, #menu5{
+		background-color: black;
+		color: white;
+		margin-top: 125px;
+	}
+	#Visaklarna2 {
+		margin: 3px;
+		margin-left: 650px;
+		border: 2px solid white;
+		border-radius: 10px;
+		padding: 3px;
+		color: white;
+		font-family: copperplate;
+	}
+	#l1{
+		color: white;
+		float: left;
+		list-style-type: none;
+		margin-left: 200px;
+	}
+	.v1{
+		font-size: large;
+		color: black;
+		font-family: copperplate;
+		text-align: center;
+		margin-top: 10px; 
+	}
+	.link{
+		font-size: large;
+		color: black;
+		font-family: copperplate;
+		border: 2px solid black;
+		border-radius: 15px;
+		margin-top: 15px;
+		text-align: center;
+	}
+	.kasse{
+		width: 70px;
+		float: left;
+		margin-top: 30px;
+		margin-left: 170px;
+		padding: 10px;
+	}
+	.kassar{
+		width: 400px;
+		margin-top: 20px;
+		float: left;
+		margin-left: 100px;
+		font-family: copperplate;
+	}
+	.link2{
+		font-size: large;
+		color: black;
+		font-family: copperplate;
+		border: 2px solid black;
+		border-radius: 15px;
+		text-align: center;
+		margin-top: 20px;
+		margin: 5px;
+		padding-left: 3px;
+	}
+	.b2{
+		width: 100px;
+		margin: 5px;
+	}	
+	.Matkassar2{
+		width: 600px;
+		float: left;
+	}
+	.b5{
+		float: left;
+		font-family: copperplate;
+	}
+	.produktbilder{
+		width: 200px;
+		float: left;
+		margin-left: 40px;
+		margin-top: 50px;
+	}
+	#jumbotron2{
+		background-image: url(../Images/Jumbotron.png);
+		background-repeat: no-repeat;
+		color: white;
+		border: 6px solid black;
+		margin-top: 10px;
+		font-family: copperplate;
+	}
+	#knappjumbotron{
+		color: black;
+		background-color: #c4c4c4;
+		border: 2px solid black;
+	}
+	aside.container{
+		padding-right: 0px;
+		padding-left: 0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#buttons{
+		margin: 5px;
+	}
+	#jumbotron3{
+		background-image: url(../Images/Jumbotron2.jpg);
+		color: gray;
+		border: 5px solid black;
+		border-radius: 15px;
+		font-family: copperplate;
+	}
+	#jumbotron3 h1{
+		color: white;
+	}
+	#ramtre{
+		border-bottom: 5px solid white; 
+	}
+	#formular{
+		margin-top: 90px;
+		margin-bottom: 60px;
+		margin-left: 100px;
+	}
+	.siluette{
+		width: 150px;
+		margin-left: 60px;
+		margin-top: 50px;
+	}
+	.kontakt{
+		float: left;
+		margin-right: 20px;
+		font-family: copperplate;
+	}
+	.kontakt2{
+		list-style-type: none;
+		margin-top: 115px;
+		font-family: copperplate;
+	}
+	{
+		font-family: copperplate;
+	}
+	#kontaktaside{
+		font-family: copperplate;
+		margin-top: 30px;
+	}
+	.asidekontakt{
+		width: 150px;
+	}
+	.kontaktlogga{
+		width: 150px;
+		margin-left: 10px;
+		border: 3px solid black;
+		border-radius: 30px;
+	}
+	footer a:hover { 
+    background-color: lime;
+	}
+	.omoss{
+		float: left;
+		margin: 20px;
+		font-family: copperplate;
+	}
+	.omoss2{
+		width: 500px;
+		float: left;
+		margin-left: 10px;
+	}
+	.omoss3{
+		width: 150px;
+	}
+	#fig{
+		border: 2px solid black;
+	}
+	body{
+		font-family: copperplate;
+	}
+	header h1{
+		text-indent: -9999px;
+		font-size: xx-small;
+	}
+	.produkter{
+		border: 2px solid black;
+		border-radius: 15px;
+		width: 200px;
+		font-family: copperplate;
+		text-align: center;
+	}
+	.kassar4{
+		width: 150px;
+	}
+	h4{
+		text-shadow: 2px 2px black;
 	}
