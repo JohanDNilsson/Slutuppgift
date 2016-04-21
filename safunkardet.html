@@ -7,7 +7,9 @@
 	<link href="Styles/bootstrap.css" rel="stylesheet">
 	<link href="Styles/bootstrap.min.css" rel="stylesheet" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 	
 
 
@@ -18,12 +20,12 @@
 
 
 <header class="container">
-<div class="col-sm-2 col-xs-6"><img src="Images/logga.png" alt="Logga" title="Logga" class="logga"></div>
-<div class="col-sm-10 col-xs-6"><img src="Images/visa.png" alt="visa" title="visa" class="Visaklarna">
+<div class="col-sm-2 col-xs-2"><img src="Images/logga.png" alt="Logga" title="Logga" class="logga"></div>
+<div class="col-sm-10 col-xs-10"><img src="Images/visa.png" alt="visa" title="visa" class="Visaklarna">
 <img src="Images/klarna.png" alt="klarna" title="klarna" class="Visaklarna">
 <a href="" class="klarnavisa whitelinks">Min sida</a><a href="" class="klarnavisa whitelinks">Varukorg</a>
 </div>
-
+<h1>Fitnesskassen</h1>
 
 
 
@@ -72,29 +74,46 @@
 </div>  
 </header>
 
+<ol class="breadcrumb container">
+    <li><a href="Index.html">Hem</a></li>
+    <li class="active">Så funkar det</li>
+</ol>
+
+
 <article class="container">
-  
 
-  <div class="omoss"><img src="Images/matkassar.jpg" alt="matkassar" title="matkassar" class="omoss2">
-  <p>Vi är ett företag som erbjuder matkassar anpassade för folk som tränar och vill nå maxresultat med din träning, du kan träna hur mycket som helst men det betyder ingenting om din kost inte är som den ska. Fitnesskassen hjälper dig att nå just dina mål. Har du några frågor om våran tjänst kan du kontakta oss eller gå direkt till produktsidan för att handla.</p>
-  
-<a class="btn btn-default" href="Kontakt.html" role="button">Kontakta oss</a><a class="btn btn-default" href="Produktsida.html" role="button" id="">Produktsida</a></br>
- 
-Hur upplever du fitnesskassen?  
-<br>
 
-<input list="browsers">
+<div class="jumbotron" id="jumbotron2">
+  <h1>Hur funkar fitnesskassen?</h1>
+    <p>Fitnesskassen är ett enkelt sätt för dig att hålla koll på kosten samtidigt som du tränar, i videon nedan finns all information du behöver för att komma igång med fitnesskassen</p>
+    <p><a class="btn btn-primary btn-lg" href="Produktsida.html" role="button" id="knappjumbotron">Gå till produktsida</a></p>
+</div>
 
-<datalist id="browsers">
-  <option value="Dålig">
-  <option value="Okej">
-  <option value="Bra">
-  <option value="Mycket bra">
-  <option value="Världsklass">
-</datalist>
 
-  </div>
 
+
+
+
+
+
+<div class="panel">
+  <div class="Panel-header v1">
+<p>Så funkar FitnessKassen</p>  
+  </div>  
+</div>
+<div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="Images/FitnesskassenFILM.mp4"></iframe>
+    </div>
+
+
+
+  <div>
+    <video controls="controls" class="center-block">
+      <source src="Images/Maldive3.ogv" type="video/webm"/>
+      <source src="Images/Maldive3.webm" type="video/ogv"/>
+      <source src="Images/Maldive3.mp4" type="video/mp4"/>
+  </video>
+    </div>
 </article>
 
 
@@ -103,30 +122,27 @@ Hur upplever du fitnesskassen?
 <footer class="container">
 	
 <div class="col-sm-3">
-	<ul class="ul1">
-				<h5>Produkter</h5>
-				<li><a HREF="index.html" class="whitelinks">Fitnesskassen</a></li>
-				<li><a HREF="pages/Varakassar.html" class="whitelinks">Mellanmålskassen</a></li>
-				<li><a HREF="pages/chokladkakor.html" class="whitelinks">Familjekassen</a></li>
-				<li><a HREF="pages/bullar.html" class="whitelinks">Parkassen</a></li>
-				<li><a HREF="pages/omoss.html" class="whitelinks">Din kasse</a></li>
+  <ul class="ul1">
+				<li><a HREF="Fitnesskasse.html" class="whitelinks">Fitnesskassen</a></li>
+				<li><a HREF="pages/Mellanmal.html" class="whitelinks">Mellanmålskassen</a></li>
+				<li><a HREF="pages/Familjekasse.html" class="whitelinks">Familjekassen</a></li>
+				<li><a HREF="pages/Parkasse.html" class="whitelinks">Parkassen</a></li>
+				<li><a HREF="pages/Minsida.html" class="whitelinks">Din kasse</a></li>
 	</ul>
 </div>	
 
 <div class="col-sm-3">	
-		<ul class="ul1">
-				<h5>Information</h5>
+    <ul class="ul1">
 				<li><a HREF="index.html" class="whitelinks">Om oss</a></li>
 				<li><a HREF="pages/Varakassar.html" class="whitelinks">Kontakt</a></li>
 				<li><a HREF="pages/chokladkakor.html" class="whitelinks">Jobba hos oss</a></li>
-				<li><a HREF="pages/bullar.html" class="whitelinks">Så funkar det</a></li>
+				<li><a HREF="safunkardet.html" class="whitelinks">Så funkar det</a></li>
 				<li><a HREF="pages/omoss.html" class="whitelinks">Vanliga frågor och svar</a></li>
 		</ul>
 </div>	
 
-<div class="col-sm-3">		
+<div class="col-sm-3">
 		<ul class="ul1">
-				<h5>Produkter</h5>
 				<li><a HREF="index.html" class="whitelinks">Instagram</a></li>
 				<li><a HREF="pages/Varakassar.html" class="whitelinks">Twitter</a></li>
 				<li><a HREF="pages/chokladkakor.html" class="whitelinks">Facebook</a></li>

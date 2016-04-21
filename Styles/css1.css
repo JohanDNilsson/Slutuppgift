@@ -43,19 +43,23 @@ header, a {
 	}
 	.M1{
 		width: 150px;
-		margin-left: 100px;
+		margin-left: 70px;
 		margin-bottom: 10px;
 	}
 	.M2{
 		width: 150px; 
-		margin-left: 100px;
-		margin-top: 70px;
+		margin-left: 30px;
+		margin-top: 105px;
 
 			}
 	.M3{
 		width: 150px;
 		margin-left: 80px;
 		margin-top: 60px;
+	}
+	.n1{
+		font-family: copperplate;
+		text-align: center;
 	}
 	.text{
 		margin-left: 10px; 
